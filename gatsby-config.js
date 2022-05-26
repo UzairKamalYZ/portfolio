@@ -5,17 +5,14 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 module.exports = {
     pathPrefix: "/portfolio",
   siteMetadata: {
-    // You can overwrite values here that are used for the SEO component
-    // You can also add new values here to query them like usual
-    // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-cara/gatsby-config.js
-    siteTitle: `Cara`,
-    siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
-    siteHeadline: `Cara - Gatsby Theme from @lekoarts`,
-    siteUrl: `https://cara.lekoarts.de`,
-    siteDescription: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+    siteTitle: `Uzair`,
+    siteTitleAlt: `UzairK. Portfolio`,
+    siteHeadline: `UzairK.`,
+    siteUrl: `http://uzairkamalyz.github.io`,
+    siteDescription: `Result driven software engineer portfolio`,
     siteLanguage: `en`,
-    siteImage: `/banner.jpg`,
-    author: `@lekoarts_de`,
+    siteImage: ``,
+    author: `@uzairK.`,
   },
   plugins: [
     {
@@ -37,15 +34,10 @@ module.exports = {
         display: `standalone`,
         icons: [
           {
-            src: `/android-chrome-192x192.png`,
+            src: `/android-cshrome-192x192.png`,
             sizes: `192x192`,
             type: `image/png`,
-          },
-          {
-            src: `/android-chrome-512x512.png`,
-            sizes: `512x512`,
-            type: `image/png`,
-          },
+          }
         ],
       },
     },
